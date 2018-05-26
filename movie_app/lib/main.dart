@@ -64,4 +64,26 @@ class TopMoviesState extends State<TopMovies> {
     
     final _apiGateWayUrl = "https://c46ojze5r8.execute-api.us-east-1.amazonaws.com/Testing";
 
+
+    void _addMovie(dynamic movie){
+      this._movies.add(new Movie(
+        title: movie["title"],
+        overview: movie["overview"],
+        poster: movie["poster"],
+        releaseDate: movie["releaseDate"]
+      ));
+      setState(() {_movies = _movies;});
+    }
+
+    @override
+      void initState() {
+        // TODO: implement initState
+        super.initState();
+        http.get(this._apiGateWayUrl)
+            .then((response)=> response.body)
+            .then(json.decode)
+            .then((movies){
+              movies.forEach(_addMovie);
+            });
+      }
 }
