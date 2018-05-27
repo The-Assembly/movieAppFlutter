@@ -11,28 +11,45 @@ Steps for getting started with Flutter on Visual Studio Code -
     Download Xcode if you wish to deploy to iOS (you will need a Mac for this of course)
 
 3.  Follow this tutorial to set up Flutter for Visual Studio Code
+
     https://www.youtube.com/watch?v=0gA6o6YWheo&t=264s&index=2&list=PLj4015jR_q9F5b4xaHLOkr8cjWrD0qw-5
+    
     OR follow the instructions here:
+    
     i.  Install VS Code version 1.20.1 or later.
+
     ii. Install the Flutter plugin
+    
         a. Start VS Code
+        
         b. Invoke View>Command Palette…
+        
         c. Type ‘install’, and select the ‘Extensions: Install Extension’ action
+        
         d. Enter flutter in the search field, select ‘Flutter’ in the list, and click Install
+        
         e. Select ‘OK’ to reload VS Code (Restart needed)
+    
     iii. Create new app
+
         a. In VS Code, invoke View>Command Palette…
+        
         b. Type ‘flutter’, and select the ‘Flutter: New Project’ action
+        
         c. Enter a project name (e.g. myapp), and press Enter
+        
         d. Specify a location to place the project, and press the blue OK button
         
-        The above command creates a Flutter project directory called myapp that contains a simple demo app that uses Material Components.
-        In the project directory, the code for your app is in lib/main.dart.
+        The above command creates a Flutter project directory called myapp that contains a simple demo app that uses Material Components.  In the project directory, the code for your app is in lib/main.dart.
 
     iv.  Run the app
+
         a. Make sure a target device is selected in the lower, right-hand corner of VS Code
+        
         b. Press the F5 button on the keyboard, or invoke Debug>Start Debugging
+        
         c. Wait for the app to launch
+        
         d. If everything works, after the app has been built, you should see your starter app on your device or simulator
         
     {Source: https://flutter.io/get-started/editor/#vscode}
@@ -41,5 +58,4 @@ Steps for getting started with Flutter on Visual Studio Code -
 
 After creating your starter app, you can replace the contents of your app directory with the code found in this repository.
 
-Enjoy!
-- The Assembly team
+Enjoy coding with Flutter! - The Assembly team
