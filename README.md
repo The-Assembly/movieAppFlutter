@@ -1,24 +1,45 @@
-# movieAppFlutter
+# MovieAppFlutter
 
-Here are some useful links
+Steps for getting started with Flutter on Visual Studio Code - 
 
-Downlaod the flutter SDK file (There is no requirment to set path or follow any futher steps from the flutter website) :
+1.  Download the Flutter SDK file from here (for our purposes, you don't need anything else from the Flutter site):
+    https://flutter.io/get-started/install/
 
-https://flutter.io/get-started/install/
+2.  Download Android Studio if you wish to deploy to Android, we won't use the IDE but the Android SDK files are needed:
+    https://developer.android.com/studio/
 
-Download Android Studio, this is required for the necessary Android SDK files to run on android :
+    Download Xcode if you wish to deploy to iOS (you will need a Mac for this of course)
 
-https://developer.android.com/studio/
+3.  Follow this tutorial to set up Flutter for Visual Studio Code
+    https://www.youtube.com/watch?v=0gA6o6YWheo&t=264s&index=2&list=PLj4015jR_q9F5b4xaHLOkr8cjWrD0qw-5
+    OR follow the instructions here:
+    i.  Install VS Code version 1.20.1 or later.
+    ii. Install the Flutter plugin
+        a. Start VS Code
+        b. Invoke View>Command Palette…
+        c. Type ‘install’, and select the ‘Extensions: Install Extension’ action
+        d. Enter flutter in the search field, select ‘Flutter’ in the list, and click Install
+        e. Select ‘OK’ to reload VS Code (Restart needed)
+    iii. Create new app
+        a. In VS Code, invoke View>Command Palette…
+        b. Type ‘flutter’, and select the ‘Flutter: New Project’ action
+        c. Enter a project name (e.g. myapp), and press Enter
+        d. Specify a location to place the project, and press the blue OK button
+        
+        The above command creates a Flutter project directory called myapp that contains a simple demo app that uses Material Components.
+        In the project directory, the code for your app is in lib/main.dart.
 
-Download Xcode to run your app on iOS
+    iv.  Run the app
+        a. Make sure a target device is selected in the lower, right-hand corner of VS Code
+        b. Press the F5 button on the keyboard, or invoke Debug>Start Debugging
+        c. Wait for the app to launch
+        d. If everything works, after the app has been built, you should see your starter app on your device or simulator
+        
+    {Source: https://flutter.io/get-started/editor/#vscode}
+    
+    <b>Nb: If you get the message 'Flutter SDK not located' in VS Code, select 'Locate SDK' and navigate to the Flutter SDK folder you saved earlier</b>
 
-Here is a youtube link to set up flutter with visual studio :
+After creating your starter app, you can replace the contents of your app directory with the code found in this repository.
 
-https://www.youtube.com/watch?v=0gA6o6YWheo&t=264s&index=2&list=PLj4015jR_q9F5b4xaHLOkr8cjWrD0qw-5
-
-
-<b>If you get the error, flutter SDK not located, click on locate SDK and select the flutter SDK folder</b>
-
-
-
-
+Enjoy!
+- The Assembly team
