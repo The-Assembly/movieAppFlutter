@@ -10,11 +10,7 @@ Steps for getting started with Flutter on Visual Studio Code -
 
     Download Xcode if you wish to deploy to iOS (you will need a Mac for this of course)
 
-3.  Follow this tutorial to set up Flutter for Visual Studio Code
-
-    https://www.youtube.com/watch?v=0gA6o6YWheo&t=264s&index=2&list=PLj4015jR_q9F5b4xaHLOkr8cjWrD0qw-5
-    
-    OR follow the instructions here:
+3.  Follow the instructions to set up Flutter on Visual Studio Code here:
     
     i.  Install VS Code version 1.20.1 or later.
 
