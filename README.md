@@ -52,7 +52,7 @@ Steps for getting started with Flutter on Visual Studio Code -
     
     <b>Nb: If you get the message 'Flutter SDK not located' in VS Code, select 'Locate SDK' and navigate to the Flutter SDK folder you saved earlier</b>
 
-After creating your starter app, you can replace the contents of your app directory with the code found in this repository.  
+After creating your starter app, you can replace the contents of your Flutter project directory with the code found in the movie_app subfolder in this repository (or copy it to a new one, and open that folder afresh in VS Code)
 
 <b>Don't forget to replace the AWS API Gateway link in the variable _apiGatewayURL in main.dart with your own. The gateway URL mentioned in code currently has been retired. </b>
 
