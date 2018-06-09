@@ -1,6 +1,6 @@
 # MovieAppFlutter
 
-Credit: https://github.com/amansahil/
+<b>Credit:</b> https://github.com/amansahil/
 
 Steps for getting started with Flutter on Visual Studio Code - 
 
