@@ -1,5 +1,7 @@
 # MovieAppFlutter
 
+Credit: https://github.com/amansahil/
+
 Steps for getting started with Flutter on Visual Studio Code - 
 
 1.  Download the Flutter SDK file from here (for our purposes, you don't need anything else from the Flutter site):
